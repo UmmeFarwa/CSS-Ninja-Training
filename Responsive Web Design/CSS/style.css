@@ -183,7 +183,7 @@ footer a{
 
 /*MEDIA QUERIES*/
 /*tablets*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 760px){
     header nav
     {
         float:none;
@@ -218,4 +218,32 @@ footer a{
         text-align: center;
     }
 
+}
+
+/*Mobiles*/
+@media screen and (max-width: 480px){
+    #featured li
+    {
+        width:90%;
+        margin:10px 5%;
+        
+    }
+    footer ul
+    {
+        width:50%;
+        text-align: center;
+    }
+#home-menu li
+{
+    float : none;
+    width:90%;
+   
+    margin:30px 2% !important;
+}
+#main-banner img
+{
+    position:relative;
+    width:180%;
+    left:-40%;
+}
 }
